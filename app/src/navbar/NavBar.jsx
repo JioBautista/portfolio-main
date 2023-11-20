@@ -17,7 +17,7 @@ function NavBar() {
         </Link>
 
         <Link to="/about" className={styles.navlinks}>
-          About
+          Hello
         </Link>
 
         <Link to="/project" className={styles.navlinks}>
