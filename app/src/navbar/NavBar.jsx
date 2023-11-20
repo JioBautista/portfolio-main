@@ -1,0 +1,77 @@
+import React from "react";
+import styles from "./navbar.module.scss";
+import { Link } from "react-router-dom";
+import "animate.css";
+
+function NavBar() {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <div className={styles.container}>
+      <div className={styles.wrapper}>
+        <Link to="/">
+          <img src="/assets/Jio Bautista-logos_white.png" />
+        </Link>
+
+        <Link to="/about" className={styles.navlinks}>
+          <p>About</p>
+        </Link>
+
+        <Link to="/project" className={styles.navlinks}>
+          <p>Projects</p>
+        </Link>
+
+        <Link to="/contact" className={styles.navbtn}>
+          Contact
+        </Link>
+
+        <img
+          src="/assets/icons8-menu-50.png"
+          className={styles.burgericon}
+          onClick={() => handleClick()}
+        />
+        {isOpen && (
+          <>
+            <div className={`${styles.overlay}`}></div>
+            <div
+              className={`${styles.sidebar} animate__animated animate__slideInRight animate__faster`}
+            >
+              <img
+                src="/assets/icons8-close-30.png"
+                onClick={() => handleClick()}
+              />
+              <Link
+                to="/about"
+                className={styles.sidelinks}
+                onClick={() => handleClick()}
+              >
+                About
+              </Link>
+
+              <Link
+                to="/project"
+                className={styles.sidelinks}
+                onClick={() => handleClick()}
+              >
+                Hello
+              </Link>
+
+              <Link
+                to="/contact"
+                className={`${styles.navbtn} ${styles.display}`}
+                onClick={() => handleClick()}
+              >
+                Contact
+              </Link>
+            </div>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default NavBar;

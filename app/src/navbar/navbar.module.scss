@@ -1,0 +1,134 @@
+.wrapper {
+    position: relative;
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        max-width: 150px;
+        cursor: pointer;
+    }
+
+    @media(min-width: 768px) {
+        justify-content: flex-start;
+        gap: 3rem;
+
+        img {
+            max-width: 200px;
+        }
+    }
+}
+
+// Nav Links
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: none;
+}
+
+// Nav Button
+.navbtn {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: auto;
+    color: rgb(51, 51, 51);
+    display: none;
+}
+
+.navlinks,
+.navbtn {
+    @media(min-width:768px) {
+        display: block;
+    }
+}
+
+.burgericon {
+    width: 30px;
+    cursor: pointer;
+
+    @media(min-width:768px) {
+        display: none;
+    }
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.sidebar {
+    background-color: rgb(46, 46, 46);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 60%;
+    padding-top: 3.75rem;
+    padding-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    z-index: 1;
+    overflow: hidden;
+
+    img {
+        align-self: flex-end;
+    }
+}
+
+.sidelinks {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+// Display class
+.display {
+    display: block;
+    margin-left: 0;
+}
+
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+        margin: 0 auto;
+    width: 320px;  
+  }
+  .shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #19f6e8;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  .text {
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: #fff;
+    top: -48px;
+    position: relative;
+  }
+  .svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
