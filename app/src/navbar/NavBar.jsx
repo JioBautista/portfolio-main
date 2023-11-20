@@ -37,7 +37,7 @@ function NavBar() {
           <>
             <div className={`${styles.overlay}`}></div>
             <div
-              className={`${styles.sidebar} animate__animated animate__fadeInRight animate__faster`}
+              className={`${styles.sidebar} animate__animated animate__slideInRight animate__faster`}
             >
               <img
                 src="/assets/icons8-close-30.png"
