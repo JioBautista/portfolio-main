@@ -17,11 +17,11 @@ function NavBar() {
         </Link>
 
         <Link to="/about" className={styles.navlinks}>
-          <p>About</p>
+          About
         </Link>
 
         <Link to="/project" className={styles.navlinks}>
-          <p>Projects</p>
+          Projects
         </Link>
 
         <Link to="/contact" className={styles.navbtn}>
@@ -37,7 +37,7 @@ function NavBar() {
           <>
             <div className={`${styles.overlay}`}></div>
             <div
-              className={`${styles.sidebar} animate__animated animate__slideInRight animate__faster`}
+              className={`${styles.sidebar} animate__animated animate__fadeInRight animate__faster`}
             >
               <img
                 src="/assets/icons8-close-30.png"
@@ -56,7 +56,7 @@ function NavBar() {
                 className={styles.sidelinks}
                 onClick={() => handleClick()}
               >
-                Hello
+                Projects
               </Link>
 
               <Link

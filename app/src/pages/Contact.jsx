@@ -52,7 +52,7 @@ function Contact() {
           </Link>
 
           {/* INSTAGRAM ICON */}
-          <Link>
+          <Link to="https://www.instagram.com/jiobautista_/" target="_blank">
             <svg
               fill="#FFFFFF"
               xmlns="http://www.w3.org/2000/svg"

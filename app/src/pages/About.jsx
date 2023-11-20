@@ -7,7 +7,7 @@ function About() {
     <div className={`${styles.wrapper} animate__animated animate__fadeIn`}>
       <p>
         Currently based in <span>Toronto</span>. My current tech stacks are{" "}
-        <span>HTML</span>,<span>CSS</span>,<span>Javascript</span>,
+        <span>HTML</span>, <span>CSS</span>, <span>Javascript</span>,{" "}
         <span>React</span>. I'm always eager to learn new concepts and have the
         passion to improve my skills as a developer.
       </p>
