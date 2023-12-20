@@ -5,14 +5,14 @@ import "animate.css";
 function Home() {
   return (
     <div className={styles.wrapper}>
-      <h1 className={`animate__animated animate__fadeIn animate__delay-1s`}>
+      <h1 className={`animate__animated animate__fadeIn`}>
         Hi, I'm <span>Jio!</span>
       </h1>
 
-      <h1 className={`animate__animated animate__fadeIn animate__delay-2s `}>
+      <h1 className={`animate__animated animate__fadeIn`}>
         <span>Front-End</span> Developer
       </h1>
-      <h1 className={`animate__animated animate__fadeIn animate__delay-3s `}>
+      <h1 className={`animate__animated animate__fadeIn`}>
         Welcome to my <span>portfolio</span>
       </h1>
     </div>
