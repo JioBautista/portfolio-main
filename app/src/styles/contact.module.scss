@@ -29,7 +29,6 @@
     text-align: center;
     max-width: 600px;
     margin-inline: auto;
-    // border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +45,7 @@
     }
 
     span {
-        color: #DC143C;
+        color: orange;
     }
 
     @media(min-width: 768px) {
@@ -69,6 +68,7 @@
 
     svg {
         cursor: pointer;
+
         &:hover {
             fill: #DC143C;
         }
