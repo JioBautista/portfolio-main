@@ -10,9 +10,6 @@ function Home() {
       </h1>
 
       <h1 className={`animate__animated animate__fadeIn`}>
-        <span>Front-End</span> Developer
-      </h1>
-      <h1 className={`animate__animated animate__fadeIn`}>
         Welcome to my <span>portfolio</span>
       </h1>
     </div>
