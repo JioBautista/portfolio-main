@@ -3,6 +3,7 @@
     max-width: 1300px;
     margin-inline: auto;
     padding-inline: 1rem;
+    padding-block: 2.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +18,7 @@
         gap: 3rem;
 
         img {
-            max-width: 200px;
+            max-width: 175px;
         }
     }
 }
@@ -25,33 +26,23 @@
 // Nav Links
 .navlinks {
     text-decoration: none;
-    color: white;
+    color: #000000;
     font-size: 18px;
     font-weight: 500;
     display: none;
-
-    &:hover {
-        color: orange;
-    }
-
 }
 
 // Nav Button
 .navbtn {
     text-decoration: none;
-    background-color: white;
+    background-color: #404040;
     border-radius: 2rem;
     padding: 1rem 2rem;
     font-weight: 500;
     font-size: 18px;
     margin-left: auto;
-    color: rgb(51, 51, 51);
+    color: white;
     display: none;
-
-    &:hover {
-        background-color: orange;
-        color: white;
-    }
 }
 
 .navlinks,
@@ -81,12 +72,12 @@
 }
 
 .sidebar {
-    background-color: rgb(46, 46, 46);
+    background-color: black;
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
-    border-bottom-left-radius: 1rem;
     width: 60%;
+    height: 100vh;
     padding-inline: 1rem;
     padding-block: 3.5rem;
     display: flex;
@@ -106,10 +97,6 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-
-    &:hover {
-        color: orange;
-    }
 }
 
 // Display class
@@ -118,36 +105,36 @@
     margin-left: 0;
 }
 
-.svg-wrapper {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0 auto;
-    width: 320px;
-}
+// .svg-wrapper {
+//     position: relative;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     margin: 0 auto;
+//     width: 320px;
+// }
 
-.shape {
-    stroke-dasharray: 140 540;
-    stroke-dashoffset: -474;
-    stroke-width: 8px;
-    fill: transparent;
-    stroke: #19f6e8;
-    border-bottom: 5px solid black;
-    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-}
+// .shape {
+//     stroke-dasharray: 140 540;
+//     stroke-dashoffset: -474;
+//     stroke-width: 8px;
+//     fill: transparent;
+//     stroke: #19f6e8;
+//     border-bottom: 5px solid black;
+//     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+// }
 
-.text {
-    font-family: 'Roboto Condensed';
-    font-size: 22px;
-    line-height: 32px;
-    letter-spacing: 8px;
-    color: #fff;
-    top: -48px;
-    position: relative;
-}
+// .text {
+//     font-family: 'Roboto Condensed';
+//     font-size: 22px;
+//     line-height: 32px;
+//     letter-spacing: 8px;
+//     color: #fff;
+//     top: -48px;
+//     position: relative;
+// }
 
-.svg-wrapper:hover .shape {
-    stroke-width: 2px;
-    stroke-dashoffset: 0;
-    stroke-dasharray: 760;
-}
+// .svg-wrapper:hover .shape {
+//     stroke-width: 2px;
+//     stroke-dashoffset: 0;
+//     stroke-dasharray: 760;
+// }

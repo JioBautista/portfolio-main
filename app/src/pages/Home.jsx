@@ -5,12 +5,10 @@ import "animate.css";
 function Home() {
   return (
     <div className={styles.wrapper}>
-      <h1 className={`animate__animated animate__fadeIn`}>
-        Hi, I'm <span>Jio!</span>
-      </h1>
+      <h1 className={`animate__animated animate__fadeIn`}>Hi, I'm Jio!</h1>
 
       <h1 className={`animate__animated animate__fadeIn`}>
-        Welcome to my <span>portfolio</span>
+        Welcome to my portfolio
       </h1>
     </div>
   );

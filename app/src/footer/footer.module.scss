@@ -6,7 +6,6 @@
     transform: translate(50%, 0);
     width: 100%;
     text-align: center;
-    // border: 1px solid black;
     max-width: 1300px;
     margin-top: auto;
     margin-inline: auto;
@@ -20,39 +19,9 @@
 
 }
 
-// Links DIV
-// .links {
-//     // border: 1px solid black;
-//     margin-bottom: 2rem;
-//     grid-area: links;
-//     display: grid;
-//     grid-template-columns: 90px 90px;
-//     justify-content: center;
-//     justify-items: center;
-//     grid-template-areas:
-//         "img img"
-//         "p p";
-// }
-// // Icons DIV
-// .icons {
-//     grid-area: icons;
-//     display: flex;
-//     gap: 2rem;
-//     justify-content: center;
-//     margin-bottom: 2rem;
-    
-//     img {
-//         width: 30px;
-//     }
-
-//     @media(min-width:768px) {
-//         margin-bottom: 0;
-//     }
-// }
-
 // Copyright P element
 .copyright {
-    font-size: 15px;
+    font-size: 18px;
     grid-area: p;
     justify-self: center;
 }

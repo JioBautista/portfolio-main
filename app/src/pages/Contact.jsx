@@ -25,7 +25,7 @@ function Contact() {
           {/* GITHUB ICON */}
           <Link to="https://github.com/JioBautista" target="_blank">
             <svg
-              fill="#FFFFFF"
+              fill="#ffffff"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 64 64"
               width="50px"
@@ -41,7 +41,7 @@ function Contact() {
             target="_blank"
           >
             <svg
-              fill="#FFFFFF"
+              fill="#ffffff"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
@@ -54,7 +54,7 @@ function Contact() {
           {/* INSTAGRAM ICON */}
           <Link to="https://www.instagram.com/jiobautista_/" target="_blank">
             <svg
-              fill="#FFFFFF"
+              fill="	#ffffff"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="50px"

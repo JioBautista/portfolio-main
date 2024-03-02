@@ -10,14 +10,10 @@
     p {
         margin-bottom: 2rem;
     }
-    span {
-        color: orange;
-        font-weight: 500;
-    }
     @media(min-width: 768px) {
         padding-inline: 4rem;
         p {
-            max-width: 40ch;
+            max-width: 48ch;
         }
         text-align: start;
         font-size: 28px;

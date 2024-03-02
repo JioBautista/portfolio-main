@@ -13,7 +13,7 @@ function NavBar() {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <Link to="/">
-          <img src="/assets/Jio Bautista-logos_white.png" />
+          <img src="assets/Color logo - no background.png" />
         </Link>
 
         <Link to="/about" className={styles.navlinks}>
@@ -29,7 +29,7 @@ function NavBar() {
         </Link>
 
         <img
-          src="/assets/icons8-menu-50.png"
+          src="assets/icons8-menu-50-black.png"
           className={styles.burgericon}
           onClick={() => handleClick()}
         />
@@ -37,7 +37,7 @@ function NavBar() {
           <>
             <div className={`${styles.overlay}`}></div>
             <div
-              className={`${styles.sidebar} animate__animated animate__slideInRight animate__faster`}
+              className={`${styles.sidebar} animate__animated animate__slideInLeft animate__faster`}
             >
               <img
                 src="/assets/icons8-close-30.png"
