@@ -40,7 +40,7 @@ function NavBar() {
               className={`${styles.sidebar} animate__animated animate__slideInLeft animate__faster`}
             >
               <img
-                src="/assets/icons8-close-30.png"
+                src="/assets/icons8-close.svg"
                 onClick={() => handleClick()}
               />
               <Link

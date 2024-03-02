@@ -72,7 +72,7 @@
 }
 
 .sidebar {
-    background-color: black;
+    background-color: white;
     position: absolute;
     left: 0;
     top: 0;
@@ -89,12 +89,14 @@
 
     img {
         align-self: flex-end;
+        width: 30px;
+        height: 30px;
     }
 }
 
 .sidelinks {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 500;
 }
