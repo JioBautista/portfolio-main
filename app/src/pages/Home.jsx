@@ -1,16 +1,17 @@
 import React from "react";
-import styles from "../styles/home.module.scss";
-import "animate.css";
+import { Container, Typography, useMediaQuery } from "@mui/material";
 
 function Home() {
+  const mobile = useMediaQuery("(max-width:500px)");
   return (
-    <div className={styles.wrapper}>
-      <h1 className={`animate__animated animate__fadeIn`}>Hi, I'm Jio!</h1>
-
-      <h1 className={`animate__animated animate__fadeIn`}>
+    <Container maxWidth="md">
+      <Typography variant={mobile ? "h2" : "h1"} textAlign={"center"}>
+        Hello! I'm Jio
+      </Typography>
+      <Typography variant={mobile ? "h3" : "h2"} textAlign={"center"}>
         Welcome to my portfolio
-      </h1>
-    </div>
+      </Typography>
+    </Container>
   );
 }
 

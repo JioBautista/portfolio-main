@@ -1,13 +1,15 @@
 import React from "react";
-import styles from "../styles/project.module.scss";
-import "animate.css";
+import { Container, Typography, useMediaQuery } from "@mui/material";
 
 function Project() {
+  const mobile = useMediaQuery("(max-width:500px)");
   return (
-    <div className={`${styles.wrapper} animate__animated animate__fadeIn `}>
-      <h1>UNDER CONSTRUCTION</h1>
+    <Container maxWidth="md">
+      <Typography variant={mobile ? "h3" : "h2"} textAlign={"center"}>
+        UNDER CONSTRUCTION
+      </Typography>
       <img src="/assets/under-construction-pana.svg" />
-    </div>
+    </Container>
   );
 }
 
