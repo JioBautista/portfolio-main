@@ -11,7 +11,7 @@ import {
 function About() {
   const mobile = useMediaQuery("(max-width:500px)");
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="md" sx={{ paddingBlock: 6 }}>
       <Typography
         variant={mobile ? "subtitle1" : "h5"}
         textAlign={"center"}
