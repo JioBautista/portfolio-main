@@ -16,20 +16,12 @@ function About() {
         textAlign={"center"}
         marginBottom={3}
       >
-        I'm Jio, a passionate programmer with a knack for problem-solving and a
-        drive to build beautiful, functional applications. For the past 4 years,
-        I thrived in the fast-paced environment of retail management, honing my
-        communication, teamwork, and leadership skills. Recently, my desire to
-        create impactful experiences led me down the path of self-taught
-        programming. Within the past year, I've immersed myself in the world of
-        web development, mastering the fundamentals of HTML, CSS, and
-        JavaScript. Eager to push my boundaries, I delved into frameworks like
-        React and explored back-end development with Python and Django. My
-        passion lies in building user interfaces that are not only visually
-        appealing but also intuitive and user-friendly. Though my programming
-        journey is young, I'm a quick learner fueled by a relentless curiosity.
-        I'm eager to leverage my diverse skillset and collaborative spirit to
-        contribute to a dynamic development team.
+        I'm a self-taught programmer with a passion for building beautiful and
+        functional applications. For 4 years, I honed my communication,
+        leadership, and problem-solving skills in a fast-paced retail
+        environment. Now, I'm eager to leverage those skills and my newfound
+        programming expertise (HTML, CSS, JavaScript, React, Python, Django) to
+        contribute to a collaborative development team.
       </Typography>
       <Box sx={{ p: 2 }}>
         <Stack
