@@ -92,17 +92,6 @@ function Project() {
             </CardContent>
           </Collapse>
         </Card>
-
-        {/* SECOND PROJECT */}
-        <Card sx={{ maxWidth: 375, maxHeight: 320 }}>
-          <CardHeader title="LogIn System" subheader="Work in Progress" />
-          <CardContent>
-            <Typography>
-              I'm currently building a login system to explore and understand
-              user authentication, validation, and authorization mechanisms.
-            </Typography>
-          </CardContent>
-        </Card>
       </Stack>
     </Container>
   );
