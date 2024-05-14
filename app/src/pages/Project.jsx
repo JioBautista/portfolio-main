@@ -58,11 +58,11 @@ function Project() {
               REST framework.
             </Typography>
             <Link
-              href="https://invoice-app-jio.vercel.app/"
+              href="https://github.com/JioBautista/invoice-app"
               variant="body1"
               underline="hover"
             >
-              Link to project
+              Link to Github
             </Link>
           </CardContent>
           <CardActions disableSpacing>
