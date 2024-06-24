@@ -17,11 +17,11 @@ function About() {
         marginBottom={3}
       >
         I'm a self-taught programmer with a passion for building beautiful and
-        functional applications. For 4 years, I honed my communication,
+        functional applications. For a decade, I honed my communication,
         leadership, and problem-solving skills in a fast-paced retail
-        environment. Now, I'm eager to leverage those skills and my newfound
-        programming expertise (HTML, CSS, JavaScript, React, Python, Django) to
-        contribute to a collaborative development team.
+        environment in a senior management role. Now, I'm eager to leverage
+        those skills and my newfound programming expertise to contribute to a
+        collaborative development team.
       </Typography>
       <Box sx={{ p: 2 }}>
         <Stack
@@ -34,12 +34,8 @@ function About() {
           <img src="/assets/icons8-html.svg" />
           <img src="/assets/icons8-css.svg" />
           <img src="/assets/icons8-javascript.svg" />
-          <img src="/assets/icons8-react.svg" />
-          <img src="/assets/icons8-sass.svg" />
-          <img src="/assets/material-ui.svg" />
+          <img src="/assets/icons8-typescript.svg" />
           <img src="/assets/icons8-python-50.svg" />
-          <img src="/assets/icons8-django-white.svg" />
-          <img src="/assets/icons8-postgresql-50.svg" />
         </Stack>
       </Box>
     </Container>

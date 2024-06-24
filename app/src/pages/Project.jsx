@@ -49,7 +49,10 @@ function Project() {
       >
         {/* FIRST PROJECT */}
         <Card sx={{ maxWidth: 375 }}>
-          <CardHeader title="Invoice App" subheader="React & Django" />
+          <CardHeader
+            title="Invoice App"
+            subheader="React, Material UI & Django"
+          />
           <CardContent>
             <Typography sx={{ mb: 1 }}>
               This invoice management app allows you to create, view, edit, and
