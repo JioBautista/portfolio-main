@@ -96,6 +96,7 @@ function Project() {
           </Collapse> */}
         </Card>
 
+        {/* SECOND PROJECT */}
         <Card sx={{ maxWidth: 375 }}>
           <CardHeader title="E-Commerce Website" subheader="React & Tailwind" />
           <CardContent>
@@ -119,6 +120,44 @@ function Project() {
               display={"block"}
             >
               Link to Project
+            </Link>
+          </CardContent>
+          {/* <CardActions disableSpacing>
+            <ExpandMore expand={expanded} onClick={handleExpandClick}>
+              <ExpandMoreIcon />
+            </ExpandMore>
+          </CardActions>
+          <Collapse in={expanded} timeout={"auto"} unmountOnExit>
+            <CardContent>
+              <Typography variant="h6">Frontend:</Typography>
+              <Typography>- React</Typography>
+              <Typography>- React-Router V6</Typography>
+              <Typography>- React-Hook-Form</Typography>
+              <Typography>- Zustand State Management</Typography>
+
+              <Typography variant="h6">Hosting:</Typography>
+              <Typography>- Vercel</Typography>
+            </CardContent>
+          </Collapse> */}
+        </Card>
+
+        {/* THIRD PROJECT */}
+        <Card sx={{ maxWidth: 375, width: "100%" }}>
+          <CardHeader
+            title="Product Feedback App"
+            subheader="React, Tailwind & Django"
+          />
+          <CardContent>
+            <Typography sx={{ mb: 1 }}>
+              This project is currently work in progress.
+            </Typography>
+            <Link
+              href="https://github.com/JioBautista/product-feedback-app"
+              variant="body1"
+              underline="hover"
+              sx={{ display: "block", mb: 1 }}
+            >
+              Link to Github
             </Link>
           </CardContent>
           {/* <CardActions disableSpacing>
