@@ -92,6 +92,51 @@ function Project() {
             </CardContent>
           </Collapse>
         </Card>
+
+        <Card sx={{ maxWidth: 375 }}>
+          <CardHeader title="Invoice App" subheader="React & Django" />
+          <CardContent>
+            <Typography>
+              This invoice management app allows you to create, view, edit, and
+              delete invoices (CRUD operations) with ease. Built with a
+              user-friendly React frontend and a powerful Django backend using
+              REST framework.
+            </Typography>
+            <Link
+              href="https://github.com/JioBautista/invoice-app"
+              variant="body1"
+              underline="hover"
+            >
+              Link to Github
+            </Link>
+          </CardContent>
+          <CardActions disableSpacing>
+            <ExpandMore expand={expanded} onClick={handleExpandClick}>
+              <ExpandMoreIcon />
+            </ExpandMore>
+          </CardActions>
+          <Collapse in={expanded} timeout={"auto"} unmountOnExit>
+            <CardContent>
+              <Typography variant="h6">Frontend:</Typography>
+              <Typography>- React</Typography>
+              <Typography>- React-Router V6</Typography>
+              <Typography>- React-Hook-Form</Typography>
+              <Typography>- Axios</Typography>
+              <Typography>- Material UI</Typography>
+              <Typography>- Zustand State Management</Typography>
+
+              <Typography variant="h6">Backend:</Typography>
+              <Typography>- Django & REST framework</Typography>
+              <Typography>- Django-cors-headers</Typography>
+              <Typography>- Gunicorn</Typography>
+              <Typography>- Psycopg2</Typography>
+
+              <Typography variant="h6">Hosting:</Typography>
+              <Typography>- Vercel</Typography>
+              <Typography>- DigitalOcean</Typography>
+            </CardContent>
+          </Collapse>
+        </Card>
       </Stack>
     </Container>
   );
