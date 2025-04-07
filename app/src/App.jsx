@@ -1,30 +1,16 @@
 import React from "react";
-import { ThemeProvider, createTheme } from "@mui/material";
-import CssBaseline from "@mui/material/CssBaseline";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Project from "./pages/Project";
-import Contact from "./pages/Contact";
 import NavBar from "./navbar/NavBar";
-
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-});
+import Header from "./components/Header";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
-        {/* <NavBar /> */}
-        <Home />
-        <About />
-        <Project />
-        <Contact />
-      </ThemeProvider>
-    </>
+    <div className="max-w-4xl mx-auto animate__animated animate__fadeIn animate__delay-1s">
+      <NavBar />
+      <Outlet />
+    </div>
   );
 }
 
