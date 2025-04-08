@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="max-w-4xl mx-auto animate__animated animate__fadeIn animate__delay-1s">
       <NavBar />
-      <Outlet />
+      <Header />
+      <About />
+      <Projects />
     </div>
   );
 }

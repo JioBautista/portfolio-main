@@ -8,12 +8,14 @@ function Projects() {
         <h1 className="text-4xl font-bold">Portfolio Projects</h1>
 
         {/* First Project */}
-        <div className="p-5 space-y-1">
-          <h2 className="text-2xl">Audiophile E-Commerce Website</h2>
-          <h3 className="text-lg italic">
+        <div className="p-5">
+          <h2 className="text-xl md:text-2xl font-bold">
+            Audiophile E-Commerce Website
+          </h2>
+          <h3 className="mb-5 text-gray-500">
             React &#8226; Tailwind &#8226; ExpressJs &#8226; PostgreSQL
           </h3>
-          <p>
+          <p className="mb-3 md:mb-0">
             Currently under development, this e-commerce website is being built
             using a modern tech stack including React for a dynamic user
             interface and Tailwind CSS for efficient styling. The backend is
@@ -46,9 +48,9 @@ function Projects() {
         <h1 className="text-4xl font-bold">Personal Projects</h1>
 
         <div>
-          <div className="p-5 space-y-1">
-            <h2 className="text-2xl">Drinking Game App</h2>
-            <h3 className="text-lg italic">Concept &#8226;</h3>
+          <div className="p-5">
+            <h2 className="text-xl md:text-2xl font-bold">Drinking Game App</h2>
+            <h3 className="mb-5 text-gray-500">Concept</h3>
             <p>
               Introducing a new drinking game app designed to spark laughter and
               a bit of playful suspicion. The core mechanic is simple yet

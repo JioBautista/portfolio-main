@@ -1,6 +1,4 @@
 import React from "react";
-import About from "./About";
-import Projects from "./Projects";
 
 function Header() {
   return (
@@ -9,7 +7,7 @@ function Header() {
         <div className="text-[50px] md:text-[160px]/35 font-bold tracking-tight">
           <h2>
             Web{" "}
-            <span>
+            <span className="hidden md:inline">
               <img
                 src="/assets/stack-image.png"
                 className="mb-5 w-[50px] md:w-[100px] inline"
@@ -31,8 +29,6 @@ function Header() {
           </div>
         </div>
       </div>
-      <About />
-      <Projects />
     </>
   );
 }
