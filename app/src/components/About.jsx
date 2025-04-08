@@ -19,6 +19,18 @@ function About() {
             solutions.
           </p>
         </div>
+
+        <div>
+          <p className="mb-2 font-bold tracking-tight underline underline-offset-4 text-[#FA003F]">
+            Full-Stack
+          </p>
+          <div className="flex md:flex-col md:gap-0 gap-3 justify-center">
+            <p className="tracking-wide">React</p>
+            <p className="tracking-wide">Tailwind</p>
+            <p className="tracking-wide">Express</p>
+            <p className="tracking-wide">PostgresQL</p>
+          </div>
+        </div>
       </div>
     </Element>
   );
