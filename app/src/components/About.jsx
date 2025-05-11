@@ -8,7 +8,7 @@ function About() {
           <img src="/assets/portrait.JPG" className="rounded-lg" />
         </div>
 
-        <div className="text-center md:text-end">
+        <div className="text-center md:text-end mb-5">
           <p>
             Hello! I'm a Toronto-based programmer with three years of hands-on
             experience crafting websites and web applications. My foundation
@@ -21,7 +21,7 @@ function About() {
         </div>
 
         <div>
-          <p className="mb-2 font-bold tracking-tight underline underline-offset-4 text-[#FA003F]">
+          <p className="text-center mb-2 font-bold tracking-tight underline underline-offset-4 text-[#FA003F] md:text-start">
             Full-Stack
           </p>
           <div className="flex md:flex-col md:gap-0 gap-3 justify-center">
